@@ -1,0 +1,36 @@
+Sol-1. Comments : In Python we use comments as for explaination, make notes and document the codes. We afre using # key to make any statement as a comment. anything written after # is considered as comment in Python and ignored by interpreter and does affect the code.
+There are generally two types of comments in Python 
+one is single line comment and other one is multi lines comment.
+We use # then type statement for single line comment for example : # This is my comment
+For multi line comments we use triple quotes within the statements for example : 
+""" This is my secomnd comment
+and can be more comments
+after this section yo provide explaination """
+
+
+Sol-2. Variables : In Python, variables are used to store values that can be accessed and manipulated throughout the program. A variable is essentially a name that represents a specific value or object in the computer's memory.
+Variable naming: Choose a name for variable that is meaningful and descriptive. Variable names can contain letters (both uppercase and lowercase), digits(but they cannot start with a digit), and underscores (_). Python is case-sensitive, so variables named "myVariable" and "myvariable" are considered different.
+
+Variable declaration and assignment: In Python,we can directly assign a value to a variable using the assignment operator (=). Example: var = 5
+
+
+Sol-3. We can convert one data type to another by using the desired data type as a function and then put the variable in (). For example :
+var1 = 25
+var1 = str(var1)
+print(var1)
+"25"
+
+var1 = float(var1)
+var1 = bool(var1)
+var2 = "22"
+var2 = int(var2)
+var2 = 22
+
+As well  some data types provide their own methods for conversion, such as the list(), tuple(), and dict() constructors for converting to list, tuple, and dictionary types, respectively.
+
+Sol-4. We can create a text file to write Python script and save it with a .py extension, for example, "myscript.py" to generate a python script.
+
+
+Sol-5. Complex Number - In mathematics complex number is a combination of real and imaginary number. Such as a+bi where a and b are real numbers and i is an imaginary number. The imaginary unit "i" is defined as square root of -1. In the complex number a + bi, the real part a represents the real component of the number, and the imaginary part b represents the imaginary component. The real and imaginary parts can be positive, negative, or zero.
+
+In Python we use "j" in place of "i" to represent imaginary number. eg. a+bj
